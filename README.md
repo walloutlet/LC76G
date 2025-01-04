@@ -62,35 +62,37 @@ void loop() {
 Usage example assumes you are using the default Serial2 port on ESP32 chip.
 
 Tested using Waveshare LC76G GNSS Module
+
 Product URL: https://www.waveshare.com/lc76g-gnss-module.htm
+
 Wiki URL: https://www.waveshare.com/wiki/LC76G_GNSS_Module
 
 ## Configuration Options
 
 ### Update Rates
-- 100ms (10Hz)
-- 200ms (5Hz)
-- 300ms (3.33Hz)
-- 400ms (2.5Hz)
-- 500ms (2Hz)
-- 600ms (1.67Hz)
-- 700ms (1.43Hz)
-- 800ms (1.25Hz)
-- 900ms (1.11Hz)
-- 1000ms (1Hz)
+- 100ms (10Hz)    - Set value: 100
+- 200ms (5Hz)     - Set value: 200
+- 300ms (3.33Hz)  - Set value: 300
+- 400ms (2.5Hz)   - Set value: 400
+- 500ms (2Hz)     - Set value: 500
+- 600ms (1.67Hz)  - Set value: 600
+- 700ms (1.43Hz)  - Set value: 700
+- 800ms (1.25Hz)  - Set value: 800
+- 900ms (1.11Hz)  - Set value: 900
+- 1000ms (1Hz)    - Set value: 1000
 
 ### Baud Rates
-- 4800
-- 9600
-- 19200
-- 38400
-- 57600
-- 115200
+- 4800    - Set value: 4800
+- 9600    - Set value: 9600
+- 19200   - Set value: 19200
+- 38400   - Set value: 38400
+- 57600   - Set value: 57600
+- 115200  - Set value: 115200
 
 ### Start Types
-- 1 (Hot)
-- 2 (Warm)
-- 3 (Cold)
+- 1 (Hot)   - Set value: 1
+- 2 (Warm)  - Set value: 2
+- 3 (Cold)  - Set value: 3
 
 ## License
 This library is licensed under the MIT License. See the LICENSE file for details.
